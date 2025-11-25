@@ -1,0 +1,12 @@
+torch
+numpy
+transformers==4.37.2
+datasets==2.17.0
+accelerate
+evaluate
+sentencepiece
+sacremoses
+tqdm
+rouge-score
+sacrebleu
+protobuf==3.20.3
