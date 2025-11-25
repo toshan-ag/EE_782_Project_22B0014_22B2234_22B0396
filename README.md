@@ -1,14 +1,8 @@
 # BoA-Based Post-Training Quantization of OPT-125M
 
-This repository contains the implementation, experiments, and accompanying paper for:
+The project explores a practical implementation of **BoA (Blockwise Hessian Approximation)** for post-training quantization of large language models, specifically **OPT-125M**, and compares it with the GPTQ baseline. The implementation is adapted to run efficiently on **Kaggle GPU (Tesla P100)** under memory constraints.
 
-**“BoA-Based Post-Training Quantization of OPT-125M”**
-
-The project explores a practical implementation of **BoA (Blockwise Hessian Approximation)** for post-training quantization of large language models, specifically **OPT-125M**, and compares it with the GPTQ baseline. The implementation is adapted to run efficiently on **Google Kaggle GPU (Tesla P100)** under memory constraints.
-
----
-
-## 📄 Repository Contents
+## Repository Contents
 
 ### **1. `BoA-Based Post-Training Quantization of OPT-125M.pdf`**
 This paper provides:
@@ -17,7 +11,7 @@ This paper provides:
 - Mathematical formulation of BoA Hessian
 - Deviations from the official BoA algorithm  
   (including simplified Hessian, min-max quantization grids, partial row updates, etc.)
-- Engineering optimizations enabling quantization on Kaggle P100 GPU
+- Optimizations enabling quantization on Kaggle P100 GPU
 - Experimental evaluations:  
   - PPL (WikiText-2)  
   - ARC-Easy / ARC-Challenge  
