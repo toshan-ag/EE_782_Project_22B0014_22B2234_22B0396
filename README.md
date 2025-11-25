@@ -4,7 +4,7 @@ The project explores a practical implementation of **BoA (Blockwise Hessian Appr
 
 ## Repository Contents
 
-### **1. `BoA-Based Post-Training Quantization of OPT-125M.pdf`**
+### 1. `BoA-Based Post-Training Quantization of OPT-125M.pdf`
 This paper provides:
 
 - Background on GPTQ and BoA
@@ -23,7 +23,7 @@ This paper provides:
 
 ---
 
-### **2. `boa-implementation.ipynb`**
+### 2. `boa-implementation.ipynb`
 A full Jupyter notebook implementing:
 
 - OPT-125M loading in mixed CPU–GPU mode  
